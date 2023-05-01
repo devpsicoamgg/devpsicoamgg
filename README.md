@@ -1,4 +1,3 @@
-</head>
 <body>
 	<div class="container">
 		<h1 align="center">Hi there! 👋</h1>
@@ -7,7 +6,7 @@
 		<p>I'm passionate about technology and enjoy finding elegant, efficient, effective, and syntactically readable solutions to problems that arise.</p>
 		<p>When I'm not coding, I enjoy exploring nature ⛰️, training my dogs 🐕, or taking care of my plants 🌿.</p>
 		<p>Thanks for visiting 🔍 my profile, and I promise not to psychoanalyze your code!</p>
-		<div class="badge">
+		<div class="badge" align="center">
 			<a href="https://www.youtube.com/channel/UCD4LXKC9GPqTArTRkNmxusg" target="_blank">
 				<img src="https://img.shields.io/youtube/channel/views/UCD4LXKC9GPqTArTRkNmxusg?color=red&label=YouTube&logo=youtube&logoColor=full%20&style=social" alt="YouTube Badge" />
 			</a>
