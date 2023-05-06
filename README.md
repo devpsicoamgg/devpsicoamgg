@@ -15,13 +15,13 @@
 	<a href="https://www.linkedin.com/in/alberto-mario-guerrero-gonzalez-23285011/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-blue" title="LinkedIn" alt="LI"/>
 	</a>
 	</div>
-<div align="center">
-<h1> 🛠 Lenguajes, tools & statistics: </h1>
+<div align="rigth">
+<h3> 🛠 Lenguajes & tools:</h3>
 	<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JS" width="40" height="40"/&nbsp; /> </div>	     
-	
-	
-<div align="center">
+	<br>
+<h3> 📊Statistics:</h3>	
 
+	
 [![GitHub Streak](https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F)](https://git.io/streak-stats)
 	
 </div>		
