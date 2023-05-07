@@ -17,7 +17,7 @@
 	</div>
 <div align="rigth">
 <h3> 🛠 Lenguajes & tools:</h3>
-	<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JS" width="40" height="40"/&nbsp; /> </div>	     
+	<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JS" width="40" height="40"/&nbsp; /> <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="JavaScript" alt="JS" width="40" height="40"/&nbsp; /> </div>	     
 	<br>
 <h3> 📊Statistics:</h3>	
 
