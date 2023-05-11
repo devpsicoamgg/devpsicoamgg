@@ -18,8 +18,8 @@
 	</div>
 <div align="rigth">
 
-
-|Tech Stack | Level proficiency|
+<h3>
+|Tech Stack | Level proficiency|</h3>
 |:----------|:------------------|
 
 
