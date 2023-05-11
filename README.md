@@ -17,11 +17,11 @@
 	</a>
 	</div>
 <div align="rigth">
+
+|test|test|
+|:---|:---|
+
 <h3> 🛠 Lenguajes & tools:</h3>
-|LENGUAJE| %  |
-|:-------|:---|
-
-
 	<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JS" width="40" height="40"/&nbsp; /> <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" alt="git" width="40" height="40"/&nbsp; /> <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="GitHub" alt="GH" width="40" height="40"/&nbsp; /> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title:"HTML5" alt:"HTMl"  width="40" height="40"/&nbsp; />
   </div>	     
 	<br>
