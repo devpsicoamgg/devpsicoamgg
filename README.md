@@ -27,7 +27,7 @@
 |<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" title="GitHub" alt="GH" width="40" height="40"/>|Beginner||
 |<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>|Beginner||
 	     
-
+- :octocat: You can view my projects at - https://github.com/imkrishnasarathi<br>
 	
 <h3> 📊Statistics:</h3>	
 
