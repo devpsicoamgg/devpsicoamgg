@@ -1,6 +1,6 @@
 <body>
 <div class="container">
-<h1 align="center">Hi there! 👋</h1>
+<h1 align="center">Hi there! <img src=",https://giphy.com/stickers/Clarin--transparent-KGMzZvWa5su2O5LCVR" title="hand" alt="h" /> </h1>
 	<p>✔ I'm a 43-year-old Colombian psychologist 👨🏻‍💼 who wants to become a full-stack developer 🧑🏻‍💻, so I'm studying at Henry.</p>
 	<p>✔ Some might say I traded mind-reading 🧠 for code-reading. <code>let = true;//<img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width = '32px'></h2></code></p>
 	<p>✔ I'm passionate about technology and enjoy finding 🔎 elegant, efficient, effective, and syntactically readable solutions to problems that arise.</p>
