@@ -16,6 +16,7 @@
 	</a>
 	<a href="https://www.linkedin.com/in/alberto-mario-guerrero-gonzalez-23285011/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-blue" title="LinkedIn" alt="LI"/>
 	</a>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=VettoXGue.VettoXGue&"/>
 	</div>
 <div align="rigth">
 <br>
@@ -35,7 +36,7 @@
 	
 [![GitHub Streak](https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F)](https://git.io/streak-stats)
 
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=VettoXGue.VettoXGue&"  />
+  
 	
 </div>		
 	
