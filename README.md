@@ -16,6 +16,7 @@
 	</a>
 	<a href="https://www.linkedin.com/in/alberto-mario-guerrero-gonzalez-23285011/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-blue" title="LinkedIn" alt="LI"/>
 	</a>
+<br>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=VettoXGue.VettoXGue&"/>
 	</div>
 <div align="rigth">
