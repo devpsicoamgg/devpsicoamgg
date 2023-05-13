@@ -1,6 +1,6 @@
 <body>
 <div class="container">
-<h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width= "32px" />
+<h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width= "39px" />
  </h1>
 	<p>✔ I'm a 43-year-old Colombian psychologist 👨🏻‍💼 who wants to become a full-stack developer 🧑🏻‍💻, so I'm studying at Henry.</p>
 	<p>✔ Some might say I traded mind-reading 🧠 for code-reading. <code>let = true;//<img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width = '32px'></h2></code></p>
