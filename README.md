@@ -28,7 +28,7 @@
 	</div>
 
 <details> 
-  <summary><h3>📘 My proyects - All my history - </h3></summary>
+  <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary>
 
   <div align="center">
     <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
