@@ -31,33 +31,34 @@
   <summary><h3>📘 My proyects - All my history - </h3></summary>
 
   <div align="center">
-    <a href=" ">
-      <img width="278" src=" ">
+    <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230516_140732_0000.png">
     </a>
    <a href=" ">
-      <img width="278" src=" ">
+      <img width="130" src=" ">
     </a>
    <a href=" ">
-      <img width="278" src=" ">
+      <img width="130" src=" ">
     </a>
    <a href=" ">
-      <img width="278" src=" ">
+      <img width="130" src=" ">
     </a>
-
   </div> 
   </details> 
 <hr>
-<br>
-	<h3> My Statistics: <br> <img src="https://media3.giphy.com/media/WKVayVkGMJkFPQxm1W/giphy.gif?cid=ecf05e47uxns5dqcz4c6yo8sf6vkxwtm6z1i3nm0v19vrgya&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="statics" alt="h" width= "35px" /> </h3>	
-[![GitHub Streak](https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F)](https://git.io/streak-stats)
-
+<h3> My Statistics: <br> <img src="https://media3.giphy.com/media/WKVayVkGMJkFPQxm1W/giphy.gif?cid=ecf05e47uxns5dqcz4c6yo8sf6vkxwtm6z1i3nm0v19vrgya&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="statistics" alt="h" width="35px" /> </h3>	
+<a href="https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F">
+  <img src="https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F" alt="GitHub Streak" />
+</a>
+	<hr>
+<div align="right">
+  <em><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright">Copyright &#169 devpsicoamgg</a> </sup></em>
   <br>
-	
-</div>		
-	
-	<emp><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright"> Copyright &#169 devpsicoamgg</a> </emp><br>
-		<emp><a href="https://www.mozilla.org/en-US/about/manifesto/)"> Manifesto MDN</a></sup></emp>
-	
+  <em><a href="https://www.mozilla.org/en-US/about/manifesto/">Manifesto MDN</a></em>
+</div>
+
+
+
 </body>
 	
 
