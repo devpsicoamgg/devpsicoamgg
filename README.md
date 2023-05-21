@@ -32,22 +32,22 @@
 
   <div align="center">
 	   <a href=" ">
-      <img width="130" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0000.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0000.png">
     </a>
 	   <a href=" ">
-      <img width="130" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0001.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0001.png">
     </a>
     <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
       <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1684264784841.png">
     </a>
    <a href=" ">
-      <img width="130" src=" ">
+      <img width="200" src=" ">
     </a>
    <a href=" ">
-      <img width="130" src=" ">
+      <img width="200" src=" ">
     </a>
    <a href=" ">
-      <img width="130" src=" ">
+      <img width="200" src=" ">
     </a>
   </div> 
   </details> 
