@@ -28,17 +28,17 @@
 	</div>
 
 <details> 
-  <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary>
+  <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
 
   <div align="center">
 	   <a href=" ">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0000.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340377724.png">
     </a>
 	   <a href=" ">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/20230521_164759_0001.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340720678.png">
     </a>
     <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1684264784841.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340588110.png">
     </a>
    <a href=" ">
       <img width="200" src=" ">
