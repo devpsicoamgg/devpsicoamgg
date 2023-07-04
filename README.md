@@ -10,15 +10,8 @@
 	<p>✔ Thanks for visiting my profile, and I promise not to psychoanalyze your code! 😅😅😅 </p>
 
 <div class="badge" align="center"> 
-	<a href="https://www.youtube.com/channel/UCD4LXKC9GPqTArTRkNmxusg" target="_blank">
-	<img src="https://img.shields.io/badge/-YouTube-red" title="YouTube" alt="YT" />
-	</a>
-	<a href="https://twitter.com/psicoamgg" target="_blank"> <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fpsicoamgg" title="Twitter" alt="TW"/>
-	</a>
-	<a href="https://www.linkedin.com/in/alberto-mario-guerrero-gonzalez-23285011/" target="_blank"> <img src="https://img.shields.io/badge/-LinkedIn-blue" title="LinkedIn" alt="LI"/>
-	</a>
 <br>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=VettoXGue.VettoXGue&"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=VettoXGue.VettoXGue" align="right" />
 	</div>
 	
 <div align="rigth">
