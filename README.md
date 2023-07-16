@@ -17,7 +17,7 @@
 <div align="rigth">
 	<hr>
 	<h3> Tech Stack: </h3>  
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/512px-Google_Apps_Script.svg.png?20221103122014" title="Google App" alt="Script Google " width="45" height="45"/>
+	<img src="https://media0.giphy.com/media/L6q4eOnt6IX9M4YouF/200w.gif" title="Google App" alt="Script Google " width="45" height="45"/>
 	<img src="https://media2.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" title="VSC" alt="vsc" width="45" height="45"/> 
 	<img src="https://media2.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47tsy1kkt0281fcaupe4mkfcm6c9ea74cb28c377rp&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="JavaScript" alt="JS" width="48" height="45"> 
 	<img src="https://media3.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" title="Git" alt="git" width="100" height="45"/>
