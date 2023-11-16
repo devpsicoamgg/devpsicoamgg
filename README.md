@@ -17,15 +17,17 @@
 <div align="rigth">
 	<hr>
 	<h3> Tech Stack: </h3>  
-	<img src="https://media0.giphy.com/media/L6q4eOnt6IX9M4YouF/200w.gif" title="Google App" alt="Script Google " width="45" height="45"/>
-	<img src="https://media2.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" title="VSC" alt="vsc" width="45" height="45"/> 
-	<img src="https://media2.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47tsy1kkt0281fcaupe4mkfcm6c9ea74cb28c377rp&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="JavaScript" alt="JS" width="48" height="45"> 
-	<img src="https://media3.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" title="Git" alt="git" width="100" height="45"/>
+	<img src="https://media0.giphy.com/media/L6q4eOnt6IX9M4YouF/200w.gif" title="Google App" alt="Script Google " width="35" height="35"/>
+	<img src="https://media2.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif" title="VSC" alt="vsc" width="35" height="35"/> 
+	<img src="https://media2.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47tsy1kkt0281fcaupe4mkfcm6c9ea74cb28c377rp&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="JavaScript" alt="JS" width="38" height="35"> 
+	<img src="https://media3.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" title="Git" alt="git" width="80" height="35"/>
 	<img src="https://media3.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif?cid=ecf05e47fvuwyerxj6xjqfb2wmji827o6m2601hnyqe2focx&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="GitHub" alt="GH" width="40" height="40"/>
 	<img src="https://media2.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=ecf05e477v9zvankbflve5lslcrm9uxx74i7wbi4zrkqjwb1&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="HTML5" alt="HTML" width="50" height="40"/> 
 	<img src="https://media3.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif?cid=ecf05e47fipr08cer773y9sgsbz52aopqt3hav6t5scej4ey&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="CSS" alt="CSS" width="50" height="40"/>
-	<img src="https://media0.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47c551mj9h03iovjnboh9udxjst24uje2i01aumub0&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="REACT" alt="REACT" width="50" height="45"/> <hr>
-	</div>
+	<img src="https://media0.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47c551mj9h03iovjnboh9udxjst24uje2i01aumub0&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="REACT" alt="REACT" width="40" height="35"/> 
+
+ <img src="https://media3.giphy.com/media/6kDFsqVkDWx8KprPrN/giphy.gif" title="NODE" alt="NODE" width="40" height="40"/>
+	</div> <hr>
 
 <details> 
   <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
