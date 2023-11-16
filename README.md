@@ -25,9 +25,10 @@
 	<img src="https://media2.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif?cid=ecf05e477v9zvankbflve5lslcrm9uxx74i7wbi4zrkqjwb1&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="HTML5" alt="HTML" width="50" height="40"/> 
 	<img src="https://media3.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif?cid=ecf05e47fipr08cer773y9sgsbz52aopqt3hav6t5scej4ey&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="CSS" alt="CSS" width="50" height="40"/>
 	<img src="https://media0.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif?cid=ecf05e47c551mj9h03iovjnboh9udxjst24uje2i01aumub0&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="REACT" alt="REACT" width="40" height="35"/> 
-
  <img src="https://media3.giphy.com/media/6kDFsqVkDWx8KprPrN/giphy.gif" title="NODE" alt="NODE" width="40" height="40"/>
-	</div> <hr>
+	</div> 
+ 
+ <hr>
 
 <details> 
   <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
