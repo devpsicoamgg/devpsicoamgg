@@ -33,7 +33,7 @@
  
  <hr>
 
-<details> 
+<details open> 
   <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
 
   <div align="center">
@@ -59,10 +59,11 @@
   </details> 
 <hr>
 <h3> My Statistics: <br> <img src="https://media3.giphy.com/media/WKVayVkGMJkFPQxm1W/giphy.gif?cid=ecf05e47uxns5dqcz4c6yo8sf6vkxwtm6z1i3nm0v19vrgya&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="statistics" alt="h" width="35px" /> </h3>	
-<a href="https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F">
-  <img src="https://streak-stats.demolab.com?user=devpsicoamgg&theme=one-dark-pro&date_format=j%20M%5B%20Y%5D&card_width=492&sideNums=EB5454&ring=34EB4F" alt="GitHub Streak" />
-</a>
-	<hr>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=devpsicoamgg&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark)](https://github.com/SrGobi/github-readme-stats)
+
 <div align="right">
   <em><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright">Copyright &#169 devpsicoamgg</a> </sup></em>
   <br>
