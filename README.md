@@ -38,22 +38,22 @@
 
   <div align="center">
 	   <a href="">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340377724.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340377724.png" alt="Sistema gestor mercados">
     </a>
 	   <a href="https://www.youtube.com/watch?v=m4BGu0G0E-o">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340720678.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340720678.png" alt="Sistema gestor de usuaario">
     </a>
     <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340588110.png">
+      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340588110.png" alt="Prep">
     </a>
    <a href=" ">
-      <img width="200" src=" ">
+      <img width="200" src=" " alt="🔜">
     </a>
    <a href=" ">
-      <img width="200" src=" ">
+      <img width="200" src=" " alt="🔜">
     </a>
    <a href=" ">
-      <img width="200" src=" ">
+      <img width="200" src=" " alt="🔜">
     </a>
   </div> 
   </details> 
