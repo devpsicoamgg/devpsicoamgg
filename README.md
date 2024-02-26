@@ -38,23 +38,38 @@
 
   <div align="center">
 	   <a href="">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340377724.png" alt="Sistema gestor mercados">
+      <img width="150" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340377724.png" alt="Sistema gestor mercados">
     </a>
 	   <a href="https://www.youtube.com/watch?v=m4BGu0G0E-o">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340720678.png" alt="Sistema gestor de usuaario">
+      <img width="150" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340720678.png" alt="Sistema gestor de usuaario">
     </a>
     <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
-      <img width="200" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340588110.png" alt="Prep">
+      <img width="150" src="https://raw.githubusercontent.com/devpsicoamgg/elementsdevamgg-/main/images/1686340588110.png" alt="Prep">
     </a>
-   <a href=" ">
-      <img width="200" src=" " alt="🔜">
+   <a href="https://github.com/pi-rym/PI-devpsicoamgg">
+      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708914473698.png" alt="Rick And Morty">
     </a>
-   <a href=" ">
-      <img width="200" src=" " alt="🔜">
+   <a href="https://github.com/devpsicoamgg/tinyTouristCountriesExplorers">
+      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708914647541.png" alt="Tiny Tourist Country Explorerers">
     </a>
-   <a href=" ">
-      <img width="200" src=" " alt="🔜">
+   <a href="https://sites.google.com/view/gestor-usuarios/indexsgu">
+      <img width="190" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708915098290.png" alt="Sistema Gestor Usuarios">
     </a>
+   <a href="https://silencepage.netlify.app/home">
+      <img width="190" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708916088313.png" alt="Silence">
+    </a>
+       <a href=" ">
+      <img width="150" src=" " alt="🔜">
+    </a>
+       <a href=" ">
+      <img width="150" src=" " alt="🔜">
+    </a>
+       <a href=" ">
+      <img width="150" src=" " alt="🔜">
+    </a>
+       <a href=" ">
+      <img width="150" src=" " alt="🔜">
+    </a>   
   </div> 
   </details> 
 <hr>
@@ -65,7 +80,8 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark)](https://github.com/SrGobi/github-readme-stats)
 
 
-![Snake animation](https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/output/github-contribution-grid-snake-dark.svg)  
+
 
 <div align="right">
   <em><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright">Copyright &#169 devpsicoamgg</a> </sup></em>
