@@ -80,8 +80,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark)](https://github.com/SrGobi/github-readme-stats)
 
 
-![Snake animation](https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/output/github-contribution-grid-snake-dark.svg)  
-
 
 <div align="right">
   <em><sup> <a href="https://github.com/devpsicoamgg/devpsicoamgg/blob/main/copyright">Copyright &#169 devpsicoamgg</a> </sup></em>
