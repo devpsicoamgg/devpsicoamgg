@@ -76,15 +76,16 @@
 
 <h3> My Statistics: <br> <img src="https://media3.giphy.com/media/WKVayVkGMJkFPQxm1W/giphy.gif?cid=ecf05e47uxns5dqcz4c6yo8sf6vkxwtm6z1i3nm0v19vrgya&ep=v1_stickers_search&rid=giphy.gif&ct=s" title="statistics" alt="h" width="35px" /> </h3>	
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 20px;">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api?username=devpsicoamgg&count_private=true&show_icons=true&theme=dark" alt="Anurag's GitHub stats" style="width: 45%;  height: 60%; margin-bottom: 10px;" />
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; margin-bottom: 20px; gap: 20px;">
+    <a href="https://github.com/anuraghazra/github-readme-stats" style="display: flex; justify-content: center; width: 100%;">
+        <img src="https://github-readme-stats.vercel.app/api?username=devpsicoamgg&count_private=true&show_icons=true&theme=dark" alt="Anurag's GitHub stats" style="width: 45%; height: auto; margin-bottom: 10px;" />
     </a>
-    <a href="https://github.com/SrGobi/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark" alt="Top Langs" style="width: 40%; height: 50%; margin-bottom: 10px;" />
+    <a href="https://github.com/SrGobi/github-readme-stats" style="display: flex; justify-content: center; width: 100%;">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark" alt="Top Langs" style="width: 34%; height: auto; margin-bottom: 10px;" />
     </a>
-
 </div>
+
+
 
 
 
