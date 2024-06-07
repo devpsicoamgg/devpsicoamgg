@@ -83,9 +83,7 @@
     <a href="https://github.com/SrGobi/github-readme-stats">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devpsicoamgg&layout=compact&theme=dark" alt="Top Langs" style="width: 40%; height: 50%; margin-bottom: 10px;" />
     </a>
-    <a href="https://github.com/devpsicoamgg/github-readme-activity-graph">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=devpsicoamgg&theme=xcode" alt="Betto's github activity graph" style="width: 90%; max-width: 800px; height: auto; margin-bottom: 10px;" />
-    </a>
+
 </div>
 
 
