@@ -36,41 +36,42 @@
 <details open> 
   <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
 
-  <div align="center">
-	   <a href="">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/may22.png" alt="Sistema gestor mercados">
+<div align="center">
+    <a href="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/may22.png" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/may22.png" alt="Sistema gestor mercados">
     </a>
-	   <a href="https://www.youtube.com/watch?v=m4BGu0G0E-o">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/feb23.png" alt="Sistema gestor de usuaario">
+    <a href="https://www.youtube.com/watch?v=m4BGu0G0E-o" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/feb23.png" alt="Sistema gestor de usuario">
     </a>
-    <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/may23.png" alt="Prep">
+    <a href="https://github.com/devpsicoamgg/fe-ct-prepcourse-fs.git" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/may23.png" alt="Prep">
     </a>
-   <a href="https://github.com/pi-rym/PI-devpsicoamgg">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/oct23.png" alt="Rick And Morty">
+    <a href="https://github.com/pi-rym/PI-devpsicoamgg" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/oct23.png" alt="Rick And Morty">
     </a>
-   <a href="https://github.com/devpsicoamgg/tinyTouristCountriesExplorers">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/dic23.png" alt="Tiny Tourist Country Explorerers">
+    <a href="https://github.com/devpsicoamgg/tinyTouristCountriesExplorers" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/dic23.png" alt="Tiny Tourist Country Explorers">
     </a>
-   <a href="https://sites.google.com/view/gestor-usuarios/indexsgu">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/ene24.png" alt="Sistema Gestor Usuarios">
+    <a href="https://sites.google.com/view/gestor-usuarios/indexsgu" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/ene24.png" alt="Sistema Gestor Usuarios">
     </a>
-   <a href="https://silencepage.netlify.app/home">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708967171567.png" alt="Silence">
+    <a href="https://silencepage.netlify.app/home" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708967171567.png" alt="Silence">
     </a>
-       <a href="https://sites.google.com/d/1jX8Mczba-qH-NnLQV7GrhT-Zqis6i2sS/p/1_SAYGBLX291fZdNchshul8pbKQIURSyj/edit">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717460087546.png" alt="Sistema Gestor Usuarios">
+    <a href="https://sites.google.com/d/1jX8Mczba-qH-NnLQV7GrhT-Zqis6i2sS/p/1_SAYGBLX291fZdNchshul8pbKQIURSyj/edit" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717460087546.png" alt="Sistema Gestor Usuarios">
     </a>
-       <a href="https://script.google.com/macros/s/AKfycbwb44M5MZaDjIWkC5nnCjeV1Vy9JSL0wJmbrrD4VXGeA4PJYyGQvMBw5xo-lMynSIq4/exec">
-      <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717461286994.png" alt="Sistema Gestor de Pctes">
+    <a href="https://script.google.com/macros/s/AKfycbwb44M5MZaDjIWkC5nnCjeV1Vy9JSL0wJmbrrD4VXGeA4PJYyGQvMBw5xo-lMynSIq4/exec" target="_blank">
+        <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717461286994.png" alt="Sistema Gestor de Pacientes">
     </a>
-       <a href=" ">
-      <img width="150" src=" " alt="🔜">
+    <a href=" " target="_blank">
+        <img width="150" src=" " alt="🔜">
     </a>
-       <a href=" ">
-      <img width="150" src=" " alt="🔜">
-    </a>   
-  </div> 
+    <a href=" " target="_blank">
+        <img width="150" src=" " alt="🔜">
+    </a>
+</div>
+ 
   </details> 
 <hr>
 
