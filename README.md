@@ -58,10 +58,10 @@
    <a href="https://silencepage.netlify.app/home">
       <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1708967171567.png" alt="Silence">
     </a>
-       <a href=" ">
+       <a href="https://sites.google.com/d/1jX8Mczba-qH-NnLQV7GrhT-Zqis6i2sS/p/1_SAYGBLX291fZdNchshul8pbKQIURSyj/edit">
       <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717460087546.png" alt="Sistema Gestor Usuarios">
     </a>
-       <a href=" ">
+       <a href="https://script.google.com/macros/s/AKfycbwb44M5MZaDjIWkC5nnCjeV1Vy9JSL0wJmbrrD4VXGeA4PJYyGQvMBw5xo-lMynSIq4/exec">
       <img width="150" src="https://github.com/devpsicoamgg/elementsdevamgg-/blob/main/images/1717461286994.png" alt="Sistema Gestor de Pctes">
     </a>
        <a href=" ">
