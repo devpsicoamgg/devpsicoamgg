@@ -14,6 +14,9 @@ jobs:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
+      - name: Actualizar rama
+        run: git pull --rebase origin "${{ github.event.repository.default_branch }}"
+
       - name: Descargar foto APOD
         env:
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
@@ -26,7 +29,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git pull --rebase origin "${{ github.event.repository.default_branch }}"
           git add assets/apod.png
           git diff --cached --quiet || git commit -m "Actualizar foto del día NASA"
           git push
