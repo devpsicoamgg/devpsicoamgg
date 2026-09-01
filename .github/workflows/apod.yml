@@ -1,4 +1,4 @@
-name: Actualizar Foto del Día NASA
+name: Foto del Día NASA
 
 on:
   schedule:
