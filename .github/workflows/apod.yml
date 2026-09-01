@@ -1,10 +1,8 @@
 name: Foto Día NASA
-
 on:
   schedule:
     - cron: '0 12 * * *'
   workflow_dispatch:
-
 jobs:
   actualizar-foto:
     runs-on: ubuntu-latest
@@ -17,12 +15,19 @@ jobs:
         run: |
           curl -s "https://api.nasa.gov/planetary/apod?api_key=$NASA_API_KEY" > apod.json
           IMG_URL=$(node -e "console.log(require('./apod.json').url)")
+          FECHA=$(node -e "console.log(require('./apod.json').date)")
           curl -sL "$IMG_URL" -o assets/apod.png
+          echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
+
+      - name: Actualizar fecha en README
+        run: |
+          sed -i "s|<!-- APOD-DATE-START -->.*<!-- APOD-DATE-END -->|<!-- APOD-DATE-START -->${FECHA_APOD}<!-- APOD-DATE-END -->|" README.md
 
       - name: Commit y push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add assets/apod.png
-          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA"
+          git add assets/apod.png README.md
+          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD}"
+          git pull --rebase origin main
           git push
