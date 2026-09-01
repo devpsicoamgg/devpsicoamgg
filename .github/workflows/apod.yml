@@ -1,0 +1,28 @@
+name: Actualizar Foto del Día NASA
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  actualizar-foto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar foto APOD
+        env:
+          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+        run: |
+          curl -s "https://api.nasa.gov/planetary/apod?api_key=$NASA_API_KEY" > apod.json
+          IMG_URL=$(node -e "console.log(require('./apod.json').url)")
+          curl -sL "$IMG_URL" -o assets/apod.png
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add assets/apod.png
+          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA"
+          git push
