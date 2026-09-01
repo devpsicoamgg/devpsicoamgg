@@ -1,13 +1,23 @@
 <body>
 <div class="container">
-<h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width= "45px" />
+<h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width="45px" />
  </h1>
+
+<img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png" 
+     alt="Foto del día NASA" 
+     align="left" 
+     width="150" 
+     style="border-radius:12px; margin-right:20px;" />
 	<p>✔ Hi! I'm a 46-year-old Colombian psychologist and full-stack developer 🚀👨🏻‍💼👨🏻‍💻.</p>
-	<p>✔ Some might say I traded mind-reading 🧠 for code-reading. <code>let = true;// </code><img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width = '25px'></p>
+	<p>✔ Some might say I traded mind-reading 🧠 for code-reading. <code>let = true;// </code><img align='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width='25px'></p>
 	<p>✔ I'm passionate about technology and enjoy finding 🔎 elegant, efficient, effective, and syntactically readable solutions to problems that arise.</p>
 	<p>✔ When I'm not coding, I enjoy exploring nature ⛰️, training my dogs 🐕, or taking care of my plants 🌿.</p>
 	<p>✔ You can contact me at 📩: <b></b><a href="mailto:psico.amgg@gmail.com">psico.amgg@gmail.com </a> </b> </p> 
 	<p>✔ Thanks for visiting my profile, and I promise not to psychoanalyze your code! 😅😅😅 </p>
+
+<p align="left"><sub>🌌 Foto NASA — <!-- APOD-DATE-START -->cargando...<!-- APOD-DATE-END --></sub></p>
+
+<br clear="left">
 
 <div class="badge" align="center"> 
 <br>
@@ -77,7 +87,13 @@
 
 
 
-
+<div align="center">
+  <img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png" 
+       alt="Foto del día NASA" 
+       width="150" 
+       style="border-radius:12px;" />
+  <p><sub>🌌 Foto Astronómica del Día - NASA</sub></p>
+</div>
 
 
 
