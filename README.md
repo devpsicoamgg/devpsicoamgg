@@ -2,6 +2,10 @@
 <div class="container">
 <h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width="45px" />
  </h1>
+<div align="right">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
+</div>
+
 
 <img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png"
      alt="Foto del día NASA"
@@ -119,12 +123,9 @@ width="25px">
   </details> 
 <hr>
 
-
-
-
-
-
-
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=devpsicoamgg&theme=radical" />
+</div>
 
 
 <div align="right">
