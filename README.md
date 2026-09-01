@@ -65,6 +65,7 @@ width="25px">
  <img src="https://media3.giphy.com/media/6kDFsqVkDWx8KprPrN/giphy.gif" title="NODE" alt="NODE" width="40" height="40"/>
 	 <img src="https://media3.giphy.com/media/9fxILAyUHhPumpZXwR/giphy.gif?cid=ecf05e47f4745c0a16f8767b2818493d93eb520a3279a41f&ep=v1_user_favorites&rid=giphy.gif&ct=s" title="Express" alt="Express" width="40" height="40"/>
 	 <img src="https://media3.giphy.com/media/zlcU40PYOVIiNThp3r/giphy.gif" title="Jest" alt="Jest" width="40" height="40"/>
+	 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGhycnBsNTk5cWxtdXY3b3FrdDE4enhlazNud3R5NGhnY3R5bmU4aSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/LMt9638dO8dftAjtco/giphy.gif" title="Jest" alt="Jest" width="40" height="40"/>
 	</div> 
  
  <hr>
