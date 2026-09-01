@@ -81,7 +81,7 @@ width="25px">
 
   <p align="left">
     💭 <b>Frase del día:</b><br>
-    <sub><!-- QUOTE-START -->Cargando frase...<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->You must either modify your dreams or magnify your skills. — Jim Rohn<!-- QUOTE-END --></sub>
   </p>
 
   <br clear="right">
