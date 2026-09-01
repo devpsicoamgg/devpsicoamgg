@@ -74,11 +74,18 @@ width="25px">
  
  <hr>
  
-<p align="center">
-  <a href="https://github.com/kittinan/spotify-github-profile">
-    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=betto-cronopio&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false">
-  </a>
-</p>
+<div>
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=betto-cronopio&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false"
+       align="right"
+       width="300" />
+
+  <p align="left">
+    💭 <b>Frase del día:</b><br>
+    <sub><!-- QUOTE-START -->Cargando frase...<!-- QUOTE-END --></sub>
+  </p>
+
+  <br clear="right">
+</div>
 
  <hr>
 
