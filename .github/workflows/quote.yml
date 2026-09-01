@@ -13,13 +13,13 @@ jobs:
 
       - name: Obtener frase random
         run: |
-          RESPONSE=$(curl -s "https://api.quotable.io/random?tags=wisdom|philosophy|life")
+          RESPONSE=$(curl -s "https://zenquotes.io/api/random")
           FRASE=$(echo "$RESPONSE" | node -e "
             let data = '';
             process.stdin.on('data', d => data += d);
             process.stdin.on('end', () => {
               const j = JSON.parse(data);
-              console.log(j.content + ' — ' + j.author);
+              console.log(j[0].q + ' — ' + j[0].a);
             });
           ")
           echo "FRASE_DIA=$FRASE" >> $GITHUB_ENV
