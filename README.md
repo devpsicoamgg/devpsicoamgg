@@ -6,7 +6,7 @@
 <img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png"
      alt="Foto del día NASA"
      align="left"
-     width="150"
+     width="200"
      style="border-radius:12px; margin-right:20px;" />
 
 <p>
@@ -37,14 +37,13 @@ width="25px">
 <p>
 ✔ Thanks for visiting my profile, and I promise not to psychoanalyze your code! 😅😅😅
 </p>
-
-<p align="left">
-<sub>🌌 Foto NASA — <!-- APOD-DATE-START -->cargando...<!-- APOD-DATE-END --></sub>
+<p>
+✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
+<!-- APOD-DATE-START -->cargando...<!-- APOD-DATE-END -->
 </p>
 
-<br clear="left">
 
-<br clear="left">
+
 
 <div class="badge" align="center"> 
 <br>
