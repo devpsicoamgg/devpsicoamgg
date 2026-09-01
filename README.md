@@ -15,7 +15,7 @@
 	<p>✔ You can contact me at 📩: <b></b><a href="mailto:psico.amgg@gmail.com">psico.amgg@gmail.com </a> </b> </p> 
 	<p>✔ Thanks for visiting my profile, and I promise not to psychoanalyze your code! 😅😅😅 </p>
 
-<p align="left"><sub>🌌 Foto NASA — <!-- APOD-DATE-START -->cargando...<!-- APOD-DATE-END --></sub></p>
+<p align="left"><sub>🌌 Foto NASA — <!-- APOD-DATE-START -->2026-09-01<!-- APOD-DATE-END --></sub></p>
 
 <br clear="left">
 
