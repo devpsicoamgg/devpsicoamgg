@@ -14,7 +14,7 @@
 <img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png"
      alt="Foto del día NASA"
      align="left"
-     width="240"
+     width="260"
      style="border-radius:12px; margin-right:20px;" />
 
 <p>
