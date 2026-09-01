@@ -39,7 +39,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->Loading<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-09-01<!-- APOD-DATE-END -->
 </p>
 
 
