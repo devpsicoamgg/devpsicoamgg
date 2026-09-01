@@ -68,8 +68,15 @@ width="25px">
 	</div> 
  
  <hr>
+ 
+<p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=betto-cronopio&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false">
+  </a>
+</p>
 
-<details open> 
+
+
   <summary><h3><img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" title="man programing" alt="H", width="45"/> My Projects - All My History - </h3></summary> 
 
 <div align="center">
