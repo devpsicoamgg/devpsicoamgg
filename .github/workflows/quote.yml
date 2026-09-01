@@ -1,0 +1,38 @@
+name: Frase del Día
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  actualizar-frase:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Obtener frase random
+        run: |
+          RESPONSE=$(curl -s "https://api.quotable.io/random?tags=wisdom|philosophy|life")
+          FRASE=$(echo "$RESPONSE" | node -e "
+            let data = '';
+            process.stdin.on('data', d => data += d);
+            process.stdin.on('end', () => {
+              const j = JSON.parse(data);
+              console.log(j.content + ' — ' + j.author);
+            });
+          ")
+          echo "FRASE_DIA=$FRASE" >> $GITHUB_ENV
+
+      - name: Actualizar frase en README
+        run: |
+          sed -i "s|<!-- QUOTE-START -->.*<!-- QUOTE-END -->|<!-- QUOTE-START -->${FRASE_DIA}<!-- QUOTE-END -->|" README.md
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Actualizar frase del día"
+          git pull --rebase origin main
+          git push
