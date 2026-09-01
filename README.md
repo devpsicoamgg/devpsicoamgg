@@ -2,7 +2,7 @@
 <div class="container">
 <h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width= "45px" />
  </h1>
-	<p>✔ Hi! I'm a 44-year-old Colombian psychologist and full-stack developer 🚀👨🏻‍💼👨🏻‍💻.</p>
+	<p>✔ Hi! I'm a 46-year-old Colombian psychologist and full-stack developer 🚀👨🏻‍💼👨🏻‍💻.</p>
 	<p>✔ Some might say I traded mind-reading 🧠 for code-reading. <code>let = true;// </code><img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width = '25px'></p>
 	<p>✔ I'm passionate about technology and enjoy finding 🔎 elegant, efficient, effective, and syntactically readable solutions to problems that arise.</p>
 	<p>✔ When I'm not coding, I enjoy exploring nature ⛰️, training my dogs 🐕, or taking care of my plants 🌿.</p>
