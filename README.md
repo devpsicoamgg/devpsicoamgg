@@ -2,6 +2,10 @@
 <div class="container">
 <h1 align="center">Hi there! <img src="https://media2.giphy.com/media/66rL8PmB42HOn3tgZe/200w.webp" title="hand" alt="h" width="45px" />
  </h1>
+	  <p>
+    💭 <b>Quote of the day:</b><br>
+    <sub><!-- QUOTE-START -->You must either modify your dreams or magnify your skills. — Jim Rohn<!-- QUOTE-END --></sub>
+  </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
 </div>
@@ -73,19 +77,13 @@ width="25px">
 	</div> 
  
  <hr>
- 
-<div>
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=betto-cronopio&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false"
-       align="right"
-       width="300" />
 
-  <p align="left">
-    💭 <b>Frase del día:</b><br>
-    <sub><!-- QUOTE-START -->You must either modify your dreams or magnify your skills. — Jim Rohn<!-- QUOTE-END --></sub>
-  </p>
 
-  <br clear="right">
-</div>
+ <p align="center">
+  <a href="https://github.com/kittinan/spotify-github-profile">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=betto-cronopio&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false">
+  </a>
+</p>
 
  <hr>
 
