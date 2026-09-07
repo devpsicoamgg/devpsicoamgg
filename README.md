@@ -4,7 +4,7 @@
  </h1>
 	  <p>
     💭 <b>Quote of the day:</b><br>
-    <sub><!-- QUOTE-START -->The one who praises you is a thief. The one who criticizes you is your true friend. — Seungsahn<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->Success is the child of drudgery and perseverance. It cannot be coaxed or bribed; pay the price and it is yours. — Orison Swett Marden<!-- QUOTE-END --></sub>
   </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
