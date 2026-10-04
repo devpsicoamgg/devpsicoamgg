@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: '0 12 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   actualizar-foto:
     runs-on: ubuntu-latest
@@ -13,10 +17,22 @@ jobs:
         env:
           NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
         run: |
-          curl -s "https://api.nasa.gov/planetary/apod?api_key=$NASA_API_KEY" > apod.json
-          IMG_URL=$(node -e "console.log(require('./apod.json').url)")
+          mkdir -p assets
+          curl -fsS "https://api.nasa.gov/planetary/apod?api_key=$NASA_API_KEY&thumbs=true" > apod.json
+          cat apod.json
+
+          TIPO=$(node -e "console.log(require('./apod.json').media_type)")
           FECHA=$(node -e "console.log(require('./apod.json').date)")
-          curl -sL "$IMG_URL" -o assets/apod.png
+
+          if [ "$TIPO" = "image" ]; then
+            IMG_URL=$(node -e "const a=require('./apod.json');console.log(a.hdurl||a.url)")
+          else
+            IMG_URL=$(node -e "console.log(require('./apod.json').thumbnail_url)")
+          fi
+
+          echo "Descargando: $IMG_URL"
+          curl -fsSL "$IMG_URL" -o assets/apod.jpg
+          file assets/apod.jpg
           echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
 
       - name: Actualizar fecha en README
@@ -27,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add assets/apod.png README.md
+          git add assets/apod.jpg README.md
           git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD}"
           git pull --rebase origin main
           git push
