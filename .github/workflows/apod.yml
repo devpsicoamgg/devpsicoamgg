@@ -19,7 +19,6 @@ jobs:
         run: |
           mkdir -p assets
           curl -fsS "https://api.nasa.gov/planetary/apod?api_key=$NASA_API_KEY&thumbs=true" > apod.json
-          cat apod.json
 
           TIPO=$(node -e "console.log(require('./apod.json').media_type)")
           FECHA=$(node -e "console.log(require('./apod.json').date)")
@@ -27,7 +26,12 @@ jobs:
           if [ "$TIPO" = "image" ]; then
             IMG_URL=$(node -e "const a=require('./apod.json');console.log(a.hdurl||a.url)")
           else
-            IMG_URL=$(node -e "console.log(require('./apod.json').thumbnail_url)")
+            IMG_URL=$(node -e "console.log(require('./apod.json').thumbnail_url || '')")
+          fi
+
+          if [ -z "$IMG_URL" ]; then
+            echo "Hoy el APOD es un video sin miniatura. Se conserva la foto anterior."
+            exit 0
           fi
 
           echo "Descargando: $IMG_URL"
@@ -36,6 +40,7 @@ jobs:
           echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
 
       - name: Actualizar fecha en README
+        if: env.FECHA_APOD != ''
         run: |
           sed -i "s|<!-- APOD-DATE-START -->.*<!-- APOD-DATE-END -->|<!-- APOD-DATE-START -->${FECHA_APOD}<!-- APOD-DATE-END -->|" README.md
 
@@ -44,6 +49,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add assets/apod.jpg README.md
-          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD}"
+          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD:-sin-cambios}"
           git pull --rebase origin main
           git push
