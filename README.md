@@ -11,7 +11,7 @@
 </div>
 
 
-<img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.png"
+<img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.jpg"
      alt="Foto del día NASA"
      align="left"
      width="260"
