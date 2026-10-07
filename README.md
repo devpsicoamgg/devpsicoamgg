@@ -4,7 +4,7 @@
  </h1>
 	  <p>
     💭 <b>Quote of the day:</b><br>
-    <sub><!-- QUOTE-START -->One loses many laughs by not laughing at oneself. — Mary Engelbreit<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->Play your part in life, but never forget that it is only a role. — Paramahansa Yogananda<!-- QUOTE-END --></sub>
   </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
