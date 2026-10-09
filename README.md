@@ -4,7 +4,7 @@
  </h1>
 	  <p>
     💭 <b>Quote of the day:</b><br>
-    <sub><!-- QUOTE-START -->Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending. — Carl Bard<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->Hope is important because it can make the present moment less difficult to bear. If we believe that tomorrow will be better, we can bear a hardship today. — Thich Nhat Hanh<!-- QUOTE-END --></sub>
   </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
