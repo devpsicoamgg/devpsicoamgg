@@ -11,12 +11,6 @@
 </div>
 
 
-<img src="https://raw.githubusercontent.com/devpsicoamgg/devpsicoamgg/main/assets/apod.jpg"
-     alt="Foto del día NASA"
-     align="left"
-     width="260"
-     style="border-radius:12px; margin-right:20px;" />
-
 <p>
 ✔ Hi! I'm a 46-year-old Colombian psychologist and full-stack developer 🚀👨🏻‍💼👨🏻‍💻.
 </p>
