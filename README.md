@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg"
+  <img src="assets/apod.jpg?v=2026-10-20"
        alt="Picture of the Day"
        width="200"
        align="left" />
