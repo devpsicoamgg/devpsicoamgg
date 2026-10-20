@@ -1,4 +1,4 @@
-name: Foto Día NASA
+name: Foto Día
 on:
   schedule:
     - cron: '0 12 * * *'
@@ -13,69 +13,45 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Descargar foto APOD
-        env:
-          NASA_API_KEY: ${{ secrets.NASA_API_KEY }}
+      - name: Descargar imagen del día (Wikimedia)
         run: |
           mkdir -p assets
-          KEY="${NASA_API_KEY:-DEMO_KEY}"
           OK=0
+          UA="devpsicoamgg-readme-bot/1.0 (https://github.com/devpsicoamgg)"
 
-          for OFFSET in 0 1 2 3 4 5 6; do
-            DIA=$(date -u -d "$OFFSET days ago" +%F)
+          for OFFSET in 0 1 2 3; do
+            DIA=$(date -u -d "$OFFSET days ago" +%Y/%m/%d)
+            FECHA=$(date -u -d "$OFFSET days ago" +%F)
 
-            CODE=$(curl -sS -L \
-              --retry 3 --retry-delay 10 \
-              -o apod.json -w "%{http_code}" \
-              "https://api.nasa.gov/planetary/apod?api_key=${KEY}&date=${DIA}" || true)
-            echo "Fecha $DIA -> HTTP $CODE"
+            CODE=$(curl -sSL -A "$UA" --retry 3 --retry-delay 5 \
+              -o feed.json -w "%{http_code}" \
+              "https://api.wikimedia.org/feed/v1/wikipedia/en/featured/${DIA}" || true)
+            echo "Fecha $FECHA -> HTTP $CODE"
             [ "$CODE" = "200" ] || continue
 
-            echo "Respuesta: $(cat apod.json)"
+            URL=$(node -e "const j=require('./feed.json');const i=j.image||{};console.log((i.thumbnail&&i.thumbnail.source)||(i.image&&i.image.source)||'')")
+            [ -z "$URL" ] && { echo "Sin imagen ese día"; continue; }
 
-            TIPO=$(node -e "console.log(require('./apod.json').media_type || '')")
-            FECHA=$(node -e "console.log(require('./apod.json').date || '')")
-            URL_HD=$(node -e "console.log(require('./apod.json').hdurl || '')")
-            URL_STD=$(node -e "console.log(require('./apod.json').url || '')")
+            URL=$(echo "$URL" | sed -E 's#/[0-9]+px-#/1200px-#')
+            echo "Descargando: $URL"
 
-            if [ "$TIPO" != "image" ]; then
-              echo "El APOD de $DIA es '$TIPO', se prueba el día anterior."
-              continue
+            IMG_CODE=$(curl -sSL -A "$UA" --retry 3 --retry-delay 5 \
+              -o assets/img.tmp -w "%{http_code}" "$URL" || true)
+            echo "Código HTTP de la imagen: $IMG_CODE"
+
+            if [ "$IMG_CODE" = "200" ] && file assets/img.tmp | grep -qi "image" \
+               && [ "$(stat -c%s assets/img.tmp)" -gt 20000 ]; then
+              mv assets/img.tmp assets/apod.jpg
+              echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
+              OK=1
+              break
             fi
-
-            for URL in $URL_HD $URL_STD; do
-              [ -z "$URL" ] && continue
-
-              if echo "$URL" | grep -qiE "logo|/themes/|/assets/images/"; then
-                echo "URL descartada (parece un logo): $URL"
-                continue
-              fi
-
-              echo "Descargando: $URL"
-              IMG_CODE=$(curl -sSL \
-                --retry 3 --retry-delay 5 \
-                -A "Mozilla/5.0 (compatible; github-actions-apod)" \
-                -o assets/apod.tmp -w "%{http_code}" "$URL" || true)
-              echo "Código HTTP de la imagen: $IMG_CODE"
-
-              if [ "$IMG_CODE" = "200" ] && file assets/apod.tmp | grep -qi "image"; then
-                TAM=$(stat -c%s assets/apod.tmp)
-                if [ "$TAM" -lt 50000 ]; then
-                  echo "Imagen descartada (solo $TAM bytes, muy pequeña)."
-                  continue
-                fi
-                mv assets/apod.tmp assets/apod.jpg
-                echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
-                OK=1
-                break 2
-              fi
-            done
           done
 
-          rm -f assets/apod.tmp
+          rm -f assets/img.tmp feed.json
 
           if [ "$OK" = "0" ]; then
-            echo "::error::No se pudo obtener una foto válida del APOD en los últimos 7 días."
+            echo "::error::No se pudo obtener una imagen válida."
             exit 1
           else
             file assets/apod.jpg
@@ -92,8 +68,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add assets/apod.jpg README.md
-          git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD}"
-          git pull --rebase origin main
-          git push
+          git diff --cached --quiet || git commit -m "Actualizar imagen del día - ${FECHA_APOD}"
           git pull --rebase origin main
           git push
