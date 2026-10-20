@@ -21,12 +21,12 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Loading description...<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Cap with curled gills of a Laccaria laccata (deceiver, lackluster laccaria) Focus stack of 13 photos.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->No psychoanalysis today, just pixels.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->My dogs and my plants have already approved this one.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Wikimedia Commons<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dominicus Johannes Bergsma.<!-- APOD-CREDIT-END --></sub>
     <br>
     📅 <!-- APOD-DATE-START -->2026-10-20<!-- APOD-DATE-END -->
   </p>
