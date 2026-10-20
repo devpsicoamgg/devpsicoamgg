@@ -11,7 +11,7 @@ jobs:
   actualizar-foto:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Descargar foto APOD
         env:
@@ -21,53 +21,49 @@ jobs:
           KEY="${NASA_API_KEY:-DEMO_KEY}"
           OK=0
 
-          for OFFSET in 0 1 2 3 4; do
+          for OFFSET in 0 1 2 3 4 5 6; do
             DIA=$(date -u -d "$OFFSET days ago" +%F)
 
-            for THUMBS in true false; do
-              CODE=$(curl -sS -L \
-                --retry 3 --retry-delay 10 \
-                -o apod.json -w "%{http_code}" \
-                "https://api.nasa.gov/planetary/apod?api_key=${KEY}&date=${DIA}&thumbs=${THUMBS}" || true)
-              echo "Fecha $DIA | thumbs=$THUMBS -> HTTP $CODE"
+            CODE=$(curl -sS -L \
+              --retry 3 --retry-delay 10 \
+              -o apod.json -w "%{http_code}" \
+              "https://api.nasa.gov/planetary/apod?api_key=${KEY}&date=${DIA}" || true)
+            echo "Fecha $DIA -> HTTP $CODE"
+            [ "$CODE" = "200" ] || continue
 
-              [ "$CODE" = "200" ] || continue
+            TIPO=$(node -e "console.log(require('./apod.json').media_type || '')")
+            FECHA=$(node -e "console.log(require('./apod.json').date || '')")
+            URL_HD=$(node -e "console.log(require('./apod.json').hdurl || '')")
+            URL_STD=$(node -e "console.log(require('./apod.json').url || '')")
 
-              TIPO=$(node -e "console.log(require('./apod.json').media_type || '')")
-              FECHA=$(node -e "console.log(require('./apod.json').date || '')")
-              URL_HD=$(node -e "console.log(require('./apod.json').hdurl || '')")
-              URL_STD=$(node -e "console.log(require('./apod.json').url || '')")
-              URL_THUMB=$(node -e "console.log(require('./apod.json').thumbnail_url || '')")
+            if [ "$TIPO" != "image" ]; then
+              echo "El APOD de $DIA es '$TIPO', se prueba el día anterior."
+              continue
+            fi
 
-              if [ "$TIPO" = "image" ]; then
-                CANDIDATOS="$URL_HD $URL_STD"
-              else
-                CANDIDATOS="$URL_THUMB"
+            for URL in $URL_HD $URL_STD; do
+              [ -z "$URL" ] && continue
+              echo "Descargando: $URL"
+              IMG_CODE=$(curl -sSL \
+                --retry 3 --retry-delay 5 \
+                -A "Mozilla/5.0 (compatible; github-actions-apod)" \
+                -o assets/apod.tmp -w "%{http_code}" "$URL" || true)
+              echo "Código HTTP de la imagen: $IMG_CODE"
+
+              if [ "$IMG_CODE" = "200" ] && file assets/apod.tmp | grep -qi "image"; then
+                mv assets/apod.tmp assets/apod.jpg
+                echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
+                OK=1
+                break 2
               fi
-
-              for URL in $CANDIDATOS; do
-                [ -z "$URL" ] && continue
-                echo "Descargando: $URL"
-                IMG_CODE=$(curl -sSL \
-                  --retry 3 --retry-delay 5 \
-                  -A "Mozilla/5.0 (compatible; github-actions-apod)" \
-                  -o assets/apod.tmp -w "%{http_code}" "$URL" || true)
-                echo "Código HTTP de la imagen: $IMG_CODE"
-
-                if [ "$IMG_CODE" = "200" ] && file assets/apod.tmp | grep -qi "image"; then
-                  mv assets/apod.tmp assets/apod.jpg
-                  echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
-                  OK=1
-                  break 3
-                fi
-              done
             done
           done
 
           rm -f assets/apod.tmp
 
           if [ "$OK" = "0" ]; then
-            echo "::warning::No se pudo obtener una imagen del APOD (API caída o solo videos). Se conserva la foto anterior."
+            echo "::error::No se pudo obtener una imagen del APOD en los últimos 7 días."
+            exit 1
           else
             file assets/apod.jpg
           fi
