@@ -11,6 +11,24 @@
 </div>
 
 
+<div align="left">
+  <img src="assets/apod.jpg"
+       alt="NASA Astronomy Picture of the Day"
+       width="200"
+       align="left" />
+
+  <h3>🌌 NASA's Astronomy Picture of the Day</h3>
+
+  <p>
+    ✔ Discover the universe through stunning astronomical images.
+    <br>
+    📅 <!-- APOD-DATE-START -->2026-10-20<!-- APOD-DATE-END -->
+    <br>
+    🚀 Exploring the cosmos, one picture at a time!
+  </p>
+</div>
+<br clear="left">
+
 <p>
 ✔ Hi! I'm a 46-year-old Colombian psychologist and full-stack developer 🚀👨🏻‍💼👨🏻‍💻.
 </p>
