@@ -29,23 +29,28 @@ jobs:
             echo "Fecha $FECHA -> HTTP $CODE"
             [ "$CODE" = "200" ] || continue
 
-            URL=$(node -e "const j=require('./feed.json');const i=j.image||{};console.log((i.thumbnail&&i.thumbnail.source)||(i.image&&i.image.source)||'')")
-            [ -z "$URL" ] && { echo "Sin imagen ese día"; continue; }
+            THUMB=$(node -e "const i=require('./feed.json').image||{};console.log((i.thumbnail&&i.thumbnail.source)||'')")
+            ORIG=$(node -e "const i=require('./feed.json').image||{};console.log((i.image&&i.image.source)||'')")
 
-            URL=$(echo "$URL" | sed -E 's#/[0-9]+px-#/1200px-#')
-            echo "Descargando: $URL"
+            C1=$(echo "$THUMB" | sed -E 's#\?.*$##; s#/[0-9]+px-#/960px-#')
+            C2=$(echo "$THUMB" | sed -E 's#\?.*$##')
+            C3=$(echo "$ORIG"  | sed -E 's#\?.*$##')
 
-            IMG_CODE=$(curl -sSL -A "$UA" --retry 3 --retry-delay 5 \
-              -o assets/img.tmp -w "%{http_code}" "$URL" || true)
-            echo "Código HTTP de la imagen: $IMG_CODE"
+            for URL in "$C1" "$C2" "$C3"; do
+              [ -z "$URL" ] && continue
+              echo "Descargando: $URL"
+              IMG_CODE=$(curl -sSL -A "$UA" --retry 3 --retry-delay 5 \
+                -o assets/img.tmp -w "%{http_code}" "$URL" || true)
+              echo "Código HTTP de la imagen: $IMG_CODE"
 
-            if [ "$IMG_CODE" = "200" ] && file assets/img.tmp | grep -qi "image" \
-               && [ "$(stat -c%s assets/img.tmp)" -gt 20000 ]; then
-              mv assets/img.tmp assets/apod.jpg
-              echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
-              OK=1
-              break
-            fi
+              if [ "$IMG_CODE" = "200" ] && file assets/img.tmp | grep -qi "image" \
+                 && [ "$(stat -c%s assets/img.tmp)" -gt 20000 ]; then
+                mv assets/img.tmp assets/apod.jpg
+                echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
+                OK=1
+                break 2
+              fi
+            done
           done
 
           rm -f assets/img.tmp feed.json
