@@ -19,7 +19,6 @@ jobs:
           OK=0
           UA="devpsicoamgg-readme-bot/1.0 (https://github.com/devpsicoamgg)"
 
-          # ImageMagick: 'magick' (v7) o 'convert' (v6)
           if command -v magick >/dev/null 2>&1; then
             CONV="magick"
           elif command -v convert >/dev/null 2>&1; then
@@ -59,6 +58,7 @@ jobs:
 
                 if $CONV "assets/img.tmp[0]" -resize "960x>" -background white -flatten \
                      -quality 85 assets/apod.jpg 2>/dev/null; then
+                  node -e "const i=require('./feed.json').image||{};const t=s=>(s&&s.text)||'';require('fs').writeFileSync('/tmp/meta.json',JSON.stringify({desc:t(i.description),artist:t(i.artist),title:i.title||''}))"
                   echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
                   OK=1
                   break 2
@@ -79,11 +79,56 @@ jobs:
             file assets/apod.jpg
           fi
 
-      - name: Actualizar fecha e imagen en README
+      - name: Actualizar README (fecha, imagen, descripción y chiste)
         if: env.FECHA_APOD != ''
         run: |
-          sed -i "s|<!-- APOD-DATE-START -->.*<!-- APOD-DATE-END -->|<!-- APOD-DATE-START -->${FECHA_APOD}<!-- APOD-DATE-END -->|" README.md
           sed -i -E "s#assets/apod\.jpg(\?v=[0-9-]*)?#assets/apod.jpg?v=${FECHA_APOD}#" README.md
+          node <<'EOF'
+          const fs = require('fs');
+          const meta = JSON.parse(fs.readFileSync('/tmp/meta.json', 'utf8'));
+          const fecha = process.env.FECHA_APOD;
+
+          const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+          const clean = s => (s || '').replace(/\s+/g, ' ').trim();
+
+          // Descripción real, recortada en una palabra completa
+          let desc = clean(meta.desc);
+          if (!desc) desc = clean(meta.title).replace(/^File:/i, '').replace(/\.\w+$/, '').replace(/_/g, ' ');
+          if (!desc) desc = 'A mystery picture. Even my psychology degree has no comment.';
+          if (desc.length > 240) desc = desc.slice(0, 240).replace(/\s+\S*$/, '') + '…';
+
+          let credit = clean(meta.artist).slice(0, 80) || 'Wikimedia Commons';
+
+          // Chiste rotativo según el día del año
+          const jokes = [
+            "No psychoanalysis here, but this picture says a lot about all of us.",
+            "Compiled with zero warnings. Unlike my last commit.",
+            "If this image were code, it would be perfectly indented.",
+            "My dogs and my plants have already approved this one.",
+            "Freud would see something deeper. I just see good pixels.",
+            "Merged into main without conflicts. A small miracle.",
+            "Mind reader turned code reader, now picture reader.",
+            "Zero bugs found. I checked twice, then I checked my ego.",
+            "Today's therapy session: stare at this and breathe.",
+            "Deployed to production on a Friday and it still looks great."
+          ];
+          const d = new Date(fecha + 'T00:00:00Z');
+          const dia = Math.floor((d - new Date(Date.UTC(d.getUTCFullYear(), 0, 0))) / 86400000);
+          const joke = jokes[dia % jokes.length];
+
+          const reemplazar = (txt, nombre, valor) =>
+            txt.replace(
+              new RegExp(`<!-- ${nombre}-START -->[\\s\\S]*?<!-- ${nombre}-END -->`, 'g'),
+              () => `<!-- ${nombre}-START -->${valor}<!-- ${nombre}-END -->`
+            );
+
+          let readme = fs.readFileSync('README.md', 'utf8');
+          readme = reemplazar(readme, 'APOD-DATE', fecha);
+          readme = reemplazar(readme, 'APOD-DESC', esc(desc));
+          readme = reemplazar(readme, 'APOD-JOKE', esc(joke));
+          readme = reemplazar(readme, 'APOD-CREDIT', esc(credit));
+          fs.writeFileSync('README.md', readme);
+          EOF
 
       - name: Commit y push
         if: env.FECHA_APOD != ''
