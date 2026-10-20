@@ -31,6 +31,8 @@ jobs:
             echo "Fecha $DIA -> HTTP $CODE"
             [ "$CODE" = "200" ] || continue
 
+            echo "Respuesta: $(cat apod.json)"
+
             TIPO=$(node -e "console.log(require('./apod.json').media_type || '')")
             FECHA=$(node -e "console.log(require('./apod.json').date || '')")
             URL_HD=$(node -e "console.log(require('./apod.json').hdurl || '')")
@@ -43,6 +45,12 @@ jobs:
 
             for URL in $URL_HD $URL_STD; do
               [ -z "$URL" ] && continue
+
+              if echo "$URL" | grep -qiE "logo|/themes/|/assets/images/"; then
+                echo "URL descartada (parece un logo): $URL"
+                continue
+              fi
+
               echo "Descargando: $URL"
               IMG_CODE=$(curl -sSL \
                 --retry 3 --retry-delay 5 \
@@ -51,6 +59,11 @@ jobs:
               echo "Código HTTP de la imagen: $IMG_CODE"
 
               if [ "$IMG_CODE" = "200" ] && file assets/apod.tmp | grep -qi "image"; then
+                TAM=$(stat -c%s assets/apod.tmp)
+                if [ "$TAM" -lt 50000 ]; then
+                  echo "Imagen descartada (solo $TAM bytes, muy pequeña)."
+                  continue
+                fi
                 mv assets/apod.tmp assets/apod.jpg
                 echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
                 OK=1
@@ -62,7 +75,7 @@ jobs:
           rm -f assets/apod.tmp
 
           if [ "$OK" = "0" ]; then
-            echo "::error::No se pudo obtener una imagen del APOD en los últimos 7 días."
+            echo "::error::No se pudo obtener una foto válida del APOD en los últimos 7 días."
             exit 1
           else
             file assets/apod.jpg
@@ -80,5 +93,7 @@ jobs:
           git config user.email "actions@github.com"
           git add assets/apod.jpg README.md
           git diff --cached --quiet || git commit -m "Actualizar foto del día NASA - ${FECHA_APOD}"
+          git pull --rebase origin main
+          git push
           git pull --rebase origin main
           git push
