@@ -19,6 +19,17 @@ jobs:
           OK=0
           UA="devpsicoamgg-readme-bot/1.0 (https://github.com/devpsicoamgg)"
 
+          # ImageMagick: 'magick' (v7) o 'convert' (v6)
+          if command -v magick >/dev/null 2>&1; then
+            CONV="magick"
+          elif command -v convert >/dev/null 2>&1; then
+            CONV="convert"
+          else
+            sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+            CONV=$(command -v magick || command -v convert)
+          fi
+          echo "Usando: $CONV"
+
           for OFFSET in 0 1 2 3; do
             DIA=$(date -u -d "$OFFSET days ago" +%Y/%m/%d)
             FECHA=$(date -u -d "$OFFSET days ago" +%F)
@@ -45,10 +56,16 @@ jobs:
 
               if [ "$IMG_CODE" = "200" ] && file assets/img.tmp | grep -qi "image" \
                  && [ "$(stat -c%s assets/img.tmp)" -gt 20000 ]; then
-                mv assets/img.tmp assets/apod.jpg
-                echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
-                OK=1
-                break 2
+
+                if $CONV "assets/img.tmp[0]" -resize "960x>" -background white -flatten \
+                     -quality 85 assets/apod.jpg 2>/dev/null; then
+                  echo "FECHA_APOD=$FECHA" >> $GITHUB_ENV
+                  OK=1
+                  break 2
+                else
+                  echo "Conversión fallida, se prueba otra fuente"
+                  continue
+                fi
               fi
             done
           done
@@ -62,10 +79,11 @@ jobs:
             file assets/apod.jpg
           fi
 
-      - name: Actualizar fecha en README
+      - name: Actualizar fecha e imagen en README
         if: env.FECHA_APOD != ''
         run: |
           sed -i "s|<!-- APOD-DATE-START -->.*<!-- APOD-DATE-END -->|<!-- APOD-DATE-START -->${FECHA_APOD}<!-- APOD-DATE-END -->|" README.md
+          sed -i -E "s#assets/apod\.jpg(\?v=[0-9-]*)?#assets/apod.jpg?v=${FECHA_APOD}#" README.md
 
       - name: Commit y push
         if: env.FECHA_APOD != ''
