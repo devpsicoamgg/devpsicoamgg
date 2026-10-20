@@ -20,11 +20,15 @@
   <h3> 🎨🧑🏻‍🎨 Picture of the Day</h3>
 
   <p>
-    ✔ Discover the universe through stunning astronomical images.
+    🧠 <b>The serious part:</b>
+    <!-- APOD-DESC-START -->Loading description...<!-- APOD-DESC-END -->
+    <br>
+    😅 <b>The not-so-serious part:</b>
+    <!-- APOD-JOKE-START -->No psychoanalysis today, just pixels.<!-- APOD-JOKE-END -->
+    <br>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Wikimedia Commons<!-- APOD-CREDIT-END --></sub>
     <br>
     📅 <!-- APOD-DATE-START -->2026-10-20<!-- APOD-DATE-END -->
-    <br>
-    🚀 Exploring the cosmos, one picture at a time!
   </p>
 </div>
 <br clear="left">
