@@ -13,11 +13,11 @@
 
 <div align="left">
   <img src="assets/apod.jpg"
-       alt="NASA Astronomy Picture of the Day"
+       alt="Picture of the Day"
        width="200"
        align="left" />
 
-  <h3>🌌 NASA's Astronomy Picture of the Day</h3>
+  <h3> 🎨🧑🏻‍🎨 Picture of the Day</h3>
 
   <p>
     ✔ Discover the universe through stunning astronomical images.
