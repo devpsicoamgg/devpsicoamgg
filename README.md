@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-10-20"
+  <img src="assets/apod.jpg?v=2026-10-21"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Cap with curled gills of a Laccaria laccata (deceiver, lackluster laccaria) Focus stack of 13 photos.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->A small hoverfly in the sun (female Episyrphus balteatus)<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->My dogs and my plants have already approved this one.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Freud would see something deeper. I just see good pixels.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dominicus Johannes Bergsma.<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Alvesgaspar<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-10-20<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-10-21<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-10-20<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-10-21<!-- APOD-DATE-END -->
 </p>
 
 
