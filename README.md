@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-10-24"
+  <img src="assets/apod.jpg?v=2026-10-25"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Ocelot (Leopardus pardalis) in Mato Grosso, Brazil<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Morning fogs in the Skolivskyi Beskids. At the top there is a church, the highest in Ukraine, Skolovsky city council, Ukraine.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Zero bugs found. I checked twice, then I checked my ego.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Today's therapy session: stare at this and breathe.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Giles Laurent<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Михайло Пецкович<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-10-24<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-10-25<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-10-24<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-10-25<!-- APOD-DATE-END -->
 </p>
 
 
