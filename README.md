@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-10-27"
+  <img src="assets/apod.jpg?v=2026-10-28"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Atakule TV tower with attached shopping mall in Ankara, Turkey<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->71-931M "Vityaz" tram at Tverskaya Zastava Square in Moscow, Russia<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->No psychoanalysis here, but this picture says a lot about all of us.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Compiled with zero warnings. Unlike my last commit.<!-- APOD-JOKE-END -->
     <br>
     📷 <sub>Credit: <!-- APOD-CREDIT-START -->A.Savin<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-10-27<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-10-28<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-10-27<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-10-28<!-- APOD-DATE-END -->
 </p>
 
 
