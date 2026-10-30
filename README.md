@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-10-29"
+  <img src="assets/apod.jpg?v=2026-10-30"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Vineyards (AOC Languedoc-Cabrières) in autumn at the foot of the Pic de Vissou. Commune of Cabrières, Hérault, France.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Sunrays shining through trees and weak fog near Walchwil, Switzerland<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->If this image were code, it would be perfectly indented.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->My dogs and my plants have already approved this one.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Christian Ferrer<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->NOTE: This image is a panorama of Sunrays near Walchwil, Switzerland consisting <!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-10-29<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-10-30<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-10-29<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-10-30<!-- APOD-DATE-END -->
 </p>
 
 
