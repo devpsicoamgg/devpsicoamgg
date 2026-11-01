@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-10-31"
+  <img src="assets/apod.jpg?v=2026-11-01"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->MACS 2129-1 Galactic Graveyard: "This chillingly haunted galaxy mysteriously stopped making stars only a few billion years after the Big Bang! It became a cosmic cemetery, illuminated by the red glow of decaying stars. Dare to enter, and…<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->The twelve stained-glass windows of the Església Santa Margalida (Santa Margalida, Majorca, Spain) depicting twelve saints. Today is All Saints' Day.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Freud would see something deeper. I just see good pixels.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Merged into main without conflicts. A small miracle.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->NASA-JPL/Caltech<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->H. Zell<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-10-31<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-01<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-10-31<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-01<!-- APOD-DATE-END -->
 </p>
 
 
