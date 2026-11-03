@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-02"
+  <img src="assets/apod.jpg?v=2026-11-03"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Saint-Charles Cemetery is the largest cemetery in Quebec City. Today is All Souls' Day.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Orange-lined triggerfish (Balistapus undulatus), Red Sea, Egypt. This demersal triggerfish has a maximum body size of about 30 centimetres (12&amp;nbsp;in) and is found across the Indo-western Pacific East Africa, Red Sea and Japan, typically…<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Mind reader turned code reader, now picture reader.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Zero bugs found. I checked twice, then I checked my ego.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Wilfredor<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Diego Delso<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-02<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-03<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-02<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-03<!-- APOD-DATE-END -->
 </p>
 
 
