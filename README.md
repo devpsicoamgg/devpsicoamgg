@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-03"
+  <img src="assets/apod.jpg?v=2026-11-04"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Orange-lined triggerfish (Balistapus undulatus), Red Sea, Egypt. This demersal triggerfish has a maximum body size of about 30 centimetres (12&amp;nbsp;in) and is found across the Indo-western Pacific East Africa, Red Sea and Japan, typically…<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Swing into books. Book week, November 1-7, 1964.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Zero bugs found. I checked twice, then I checked my ego.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Today's therapy session: stare at this and breathe.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Diego Delso<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Bruno Munari, artist<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-03<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-04<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-03<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-04<!-- APOD-DATE-END -->
 </p>
 
 
