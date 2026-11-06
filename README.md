@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-05"
+  <img src="assets/apod.jpg?v=2026-11-06"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Dune landscape with fingerpost (to the wreck) in the Lower Saxony Wadden Sea National Park, Norderney, Lower Saxony, Germany<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Common wombat (Vombatus ursinus tasmaniensis) juvenile on Maria Island, Tasmania, Australia<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Deployed to production on a Friday and it still looks great.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->No psychoanalysis here, but this picture says a lot about all of us.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dietmar Rabich<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Charles J. Sharp<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-05<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-06<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-05<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-06<!-- APOD-DATE-END -->
 </p>
 
 
