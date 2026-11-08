@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-07"
+  <img src="assets/apod.jpg?v=2026-11-08"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Aekingerzand Drents-Friese Wold National Park. Pinus sylvestris on the sand drift.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Asian green bee-eater (Merops orientalis orientalis) couple in Keoladeo National Park, India<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Compiled with zero warnings. Unlike my last commit.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->If this image were code, it would be perfectly indented.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Agnes Monkelbaan<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Giles Laurent<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-07<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-08<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-07<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-08<!-- APOD-DATE-END -->
 </p>
 
 
