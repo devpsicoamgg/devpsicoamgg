@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-09"
+  <img src="assets/apod.jpg?v=2026-11-10"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Panoramic view of the Kumaon Himalaya as seen from Ranikhet in the northern Indian state of Uttarakhand. Himalayan giants such as Trisul (7,120 m (23,360 ft)), Nanda Devi (7,817 m (25,646 ft)), Nanda Kot (6,861 m (22,510 ft)), Panchachuli…<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->12th-century crypt of Verdun Cathedral, France, rediscovered after the Great War during the restoration works. When the reconstruction of the crypt was completed, the cathedral was reconsecrated on 10 November 1935.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->My dogs and my plants have already approved this one.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Freud would see something deeper. I just see good pixels.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Original: Harshit SR Derivative work: UnpetitproleX<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Andreas F. Borchert<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-09<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-10<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-09<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-10<!-- APOD-DATE-END -->
 </p>
 
 
