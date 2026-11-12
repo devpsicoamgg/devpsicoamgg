@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-11"
+  <img src="assets/apod.jpg?v=2026-11-12"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Panoramic view towards Świnica from Kościelec, Tatra National Park, Zakopane. Today is Poland's National Independence Day.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->50 Korun banknote of Czechoslovakia, issued in 1929 by the National Bank of Czechoslovakia<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Merged into main without conflicts. A small miracle.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Mind reader turned code reader, now picture reader.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->kallerna<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->National Museum of American History<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-11<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-12<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-11<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-12<!-- APOD-DATE-END -->
 </p>
 
 
