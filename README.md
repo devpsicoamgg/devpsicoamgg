@@ -4,7 +4,7 @@
  </h1>
 	  <p>
     💭 <b>Quote of the day:</b><br>
-    <sub><!-- QUOTE-START -->Our anxiety does not empty tomorrow of its sorrows, but only empties today of its strengths. — Charles Spurgeon<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->Follow your heart, listen to your inner voice, stop caring about what others think. — Roy T. Bennett<!-- QUOTE-END --></sub>
   </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
