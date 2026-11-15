@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-14"
+  <img src="assets/apod.jpg?v=2026-11-15"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Eastern quoll (Dasyurus viverrinus) fawn morph, Esk Valley, Tasmania, Australia.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Véu da Noiva Waterfall, Seixal, Madeira, Portugal<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Today's therapy session: stare at this and breathe.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Deployed to production on a Friday and it still looks great.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Charles J. Sharp<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Diego Delso<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-14<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-15<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-14<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-15<!-- APOD-DATE-END -->
 </p>
 
 
