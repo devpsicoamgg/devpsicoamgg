@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-16"
+  <img src="assets/apod.jpg?v=2026-11-17"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->International Air Balloon Festival in Leon, Guanajuato, Mexico, 2012<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Photographic art “Witches’ Dance Trilogy” (based on a view of the buoys at the buoy yard in Norderney, Lower Saxony, Germany)<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->No psychoanalysis here, but this picture says a lot about all of us.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Compiled with zero warnings. Unlike my last commit.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Tomascastelazo<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dietmar Rabich<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-16<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-17<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-16<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-17<!-- APOD-DATE-END -->
 </p>
 
 
