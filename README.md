@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-19"
+  <img src="assets/apod.jpg?v=2026-11-20"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Eurasian hoopoe (Upupa epops) eating in Keoladeo National Park, India<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Trail from Andiast to Breil-Brigels. Bad weather in the Breil-Brigels region, but it has now dried up.<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->My dogs and my plants have already approved this one.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Freud would see something deeper. I just see good pixels.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Giles Laurent<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dominicus Johannes Bergsma.<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-19<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-20<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-19<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-20<!-- APOD-DATE-END -->
 </p>
 
 
