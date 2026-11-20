@@ -4,7 +4,7 @@
  </h1>
 	  <p>
     💭 <b>Quote of the day:</b><br>
-    <sub><!-- QUOTE-START -->The truly rich men are the ones who have health, loved ones and a work they love. — Maxime Lagace<!-- QUOTE-END --></sub>
+    <sub><!-- QUOTE-START -->A man that flies from his fear may find that he has only taken a short cut to meet it. — J.R.R. Tolkien<!-- QUOTE-END --></sub>
   </p>
 <div align="right">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Psychologist+🧠+%2B+Developer+💻;Mind+reader+turned+Code+reader;Clean+%26+Readable+Code;Elegant+Solutions+to+Complex+Problems;Code+%7C+Nature+%7C+Dogs+%7C+Plants;Curious+Mind%2C+Creative+Code;NASA's+Astronomy+Picture+of+the+Day+🌌" />
