@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-20"
+  <img src="assets/apod.jpg?v=2026-11-21"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Trail from Andiast to Breil-Brigels. Bad weather in the Breil-Brigels region, but it has now dried up.<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Hundreds of thousands of vibrant blue and red stars blaze in this image of the Magellanic spiral starburst galaxy NGC 4449 taken by NASA's Hubble Space Telescope. Hot bluish-white clusters of massive stars are scattered throughout the…<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Freud would see something deeper. I just see good pixels.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Merged into main without conflicts. A small miracle.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Dominicus Johannes Bergsma.<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->NASA, ESA, A. Aloisi (STScI/ESA), and The Hubble Heritage (STScI/AURA)-ESA/Hubbl<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-20<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-21<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-20<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-21<!-- APOD-DATE-END -->
 </p>
 
 
