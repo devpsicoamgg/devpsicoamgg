@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-21"
+  <img src="assets/apod.jpg?v=2026-11-22"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Hundreds of thousands of vibrant blue and red stars blaze in this image of the Magellanic spiral starburst galaxy NGC 4449 taken by NASA's Hubble Space Telescope. Hot bluish-white clusters of massive stars are scattered throughout the…<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Amandava amandava (Red Avadavat) in Baruipur, West Bengal, India<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Merged into main without conflicts. A small miracle.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Mind reader turned code reader, now picture reader.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->NASA, ESA, A. Aloisi (STScI/ESA), and The Hubble Heritage (STScI/AURA)-ESA/Hubbl<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Tisha Mukherjee<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-21<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-22<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-21<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-22<!-- APOD-DATE-END -->
 </p>
 
 
