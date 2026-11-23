@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-22"
+  <img src="assets/apod.jpg?v=2026-11-23"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Amandava amandava (Red Avadavat) in Baruipur, West Bengal, India<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->View of Pointe Saint-Mathieu with the lighthouse (center), semaphore building (left), Chapel of Saint-Jean de Plougonvelin (right), and the ruins of the Abbey of Saint-Mathieu de Fine-Terre. Plougonvelin, Finistère, France<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Mind reader turned code reader, now picture reader.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Zero bugs found. I checked twice, then I checked my ego.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Tisha Mukherjee<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->JackyM59<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-22<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-23<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-22<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-23<!-- APOD-DATE-END -->
 </p>
 
 
