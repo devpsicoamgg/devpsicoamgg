@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-24"
+  <img src="assets/apod.jpg?v=2026-11-25"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Panorama of the new section of Taza, view from the southwest, looking down from the old city, Fez-Meknes, Morocco<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->The Wrede passage (Finnish: Wreden pasaasi. Swedish: Wredes passage; also known as the "Old merchant alley", Finnish: Vanha kauppakuja, or the "Grandma tunnel", Finnish: Mummotunneli) is an entity formed by two stone buildings in Kluuvi,…<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->Today's therapy session: stare at this and breathe.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Deployed to production on a Friday and it still looks great.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but pl<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->ArildV<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-24<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-25<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-24<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-25<!-- APOD-DATE-END -->
 </p>
 
 
