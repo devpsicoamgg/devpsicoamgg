@@ -12,7 +12,7 @@
 
 
 <div align="left">
-  <img src="assets/apod.jpg?v=2026-11-26"
+  <img src="assets/apod.jpg?v=2026-11-27"
        alt="Picture of the Day"
        width="200"
        align="left" />
@@ -21,14 +21,14 @@
 
   <p>
     🧠 <b>The serious part:</b>
-    <!-- APOD-DESC-START -->Male wild turkey (Meleagris gallopavo) strutting<!-- APOD-DESC-END -->
+    <!-- APOD-DESC-START -->Magnified 100 times, a drop of liquid crystal was dispensed onto a glass plate and a cover slip placed on top. The liquid crystal spreads out into a uniform film under the weight of the cover slip. The image was captured using a microscope…<!-- APOD-DESC-END -->
     <br>
     😅 <b>The not-so-serious part:</b>
-    <!-- APOD-JOKE-START -->No psychoanalysis here, but this picture says a lot about all of us.<!-- APOD-JOKE-END -->
+    <!-- APOD-JOKE-START -->Compiled with zero warnings. Unlike my last commit.<!-- APOD-JOKE-END -->
     <br>
-    📷 <sub>Credit: <!-- APOD-CREDIT-START -->Frank Schulenburg<!-- APOD-CREDIT-END --></sub>
+    📷 <sub>Credit: <!-- APOD-CREDIT-START -->KarlGaff<!-- APOD-CREDIT-END --></sub>
     <br>
-    📅 <!-- APOD-DATE-START -->2026-11-26<!-- APOD-DATE-END -->
+    📅 <!-- APOD-DATE-START -->2026-11-27<!-- APOD-DATE-END -->
   </p>
 </div>
 <br clear="left">
@@ -63,7 +63,7 @@ width="25px">
 </p>
 <p>
 ✔ You're looking at NASA's Astronomy Picture of the Day 🌌 — 
-<!-- APOD-DATE-START -->2026-11-26<!-- APOD-DATE-END -->
+<!-- APOD-DATE-START -->2026-11-27<!-- APOD-DATE-END -->
 </p>
 
 
